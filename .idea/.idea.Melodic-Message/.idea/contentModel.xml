@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kingb\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kingb\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Melodic-Message.-966665377.00" t="ExcludeRecursive" />
+    <e p="C:\Users\kingb\Documents\KTANE\Modding\Projects\Unity\KingBranBran\Melodic-Message" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Editor" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="AssetBundler.cs" t="Include" />
+          <e p="EdgeworkConfigurationEditor.cs" t="Include" />
+          <e p="KMModuleEditor.cs" t="Include" />
+          <e p="Missions" t="Include">
+            <e p="KMMissionEditor.cs" t="Include" />
+            <e p="KMMissionTableOfContentsEditor.cs" t="Include" />
+            <e p="TableOfContentsSectionList.cs" t="Include" />
+          </e>
+          <e p="ModConfig.cs" t="Include" />
+          <e p="ModKitSettingsEditor.cs" t="Include" />
+          <e p="PrivateWhenPlayingAttributeDrawer.cs" t="Include" />
+          <e p="ReadOnlyWhenPlayingAttributeDrawer.cs" t="Include" />
+          <e p="Workshop" t="Include">
+            <e p="WorkshopEditorWindow.cs" t="Include" />
+            <e p="WorkshopItem.cs" t="Include" />
+            <e p="WorkshopItemEditor.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Steamworks.NET" t="Include">
+          <e p="autogen" t="Include">
+            <e p="isteamapplist.cs" t="Include" />
+            <e p="isteamapps.cs" t="Include" />
+            <e p="isteamclient.cs" t="Include" />
+            <e p="isteamcontroller.cs" t="Include" />
+            <e p="isteamfriends.cs" t="Include" />
+            <e p="isteamgameserver.cs" t="Include" />
+            <e p="isteamgameserverhttp.cs" t="Include" />
+            <e p="isteamgameserverinventory.cs" t="Include" />
+            <e p="isteamgameservernetworking.cs" t="Include" />
+            <e p="isteamgameserverstats.cs" t="Include" />
+            <e p="isteamgameserverugc.cs" t="Include" />
+            <e p="isteamgameserverutils.cs" t="Include" />
+            <e p="isteamhtmlsurface.cs" t="Include" />
+            <e p="isteamhttp.cs" t="Include" />
+            <e p="isteaminventory.cs" t="Include" />
+            <e p="isteammatchmaking.cs" t="Include" />
+            <e p="isteammusic.cs" t="Include" />
+            <e p="isteammusicremote.cs" t="Include" />
+            <e p="isteamnetworking.cs" t="Include" />
+            <e p="isteamremotestorage.cs" t="Include" />
+            <e p="isteamscreenshots.cs" t="Include" />
+            <e p="isteamugc.cs" t="Include" />
+            <e p="isteamunifiedmessages.cs" t="Include" />
+            <e p="isteamuser.cs" t="Include" />
+            <e p="isteamuserstats.cs" t="Include" />
+            <e p="isteamutils.cs" t="Include" />
+            <e p="isteamvideo.cs" t="Include" />
+            <e p="NativeMethods.cs" t="Include" />
+            <e p="SteamCallbacks.cs" t="Include" />
+            <e p="SteamConstants.cs" t="Include" />
+            <e p="SteamEnums.cs" t="Include" />
+            <e p="SteamStructs.cs" t="Include" />
+          </e>
+          <e p="CallbackDispatcher.cs" t="Include" />
+          <e p="CallbackIdentity.cs" t="Include" />
+          <e p="InteropHelp.cs" t="Include" />
+          <e p="ISteamMatchmakingResponses.cs" t="Include" />
+          <e p="Packsize.cs" t="Include" />
+          <e p="RedistCopy.cs" t="Include" />
+          <e p="RedistInstall.cs" t="Include" />
+          <e p="Steam.cs" t="Include" />
+          <e p="types" t="Include">
+            <e p="MatchmakingTypes" t="Include">
+              <e p="gameserveritem_t.cs" t="Include" />
+              <e p="servernetadr_t.cs" t="Include" />
+            </e>
+            <e p="SteamClient" t="Include">
+              <e p="HSteamPipe.cs" t="Include" />
+              <e p="HSteamUser.cs" t="Include" />
+              <e p="SteamAPI_CheckCallbackRegistered_t.cs" t="Include" />
+              <e p="SteamAPI_PostAPIResultInProcess_t.cs" t="Include" />
+              <e p="SteamAPIWarningMessageHook_t.cs" t="Include" />
+            </e>
+            <e p="SteamClientPublic" t="Include">
+              <e p="CGameID.cs" t="Include" />
+              <e p="CSteamID.cs" t="Include" />
+              <e p="HAuthTicket.cs" t="Include" />
+            </e>
+            <e p="SteamFriends" t="Include">
+              <e p="FriendsGroupID_t.cs" t="Include" />
+            </e>
+            <e p="SteamHTMLSurface" t="Include">
+              <e p="HHTMLBrowser.cs" t="Include" />
+            </e>
+            <e p="SteamHTTP" t="Include">
+              <e p="HTTPCookieContainerHandle.cs" t="Include" />
+              <e p="HTTPRequestHandle.cs" t="Include" />
+            </e>
+            <e p="SteamInventory" t="Include">
+              <e p="SteamInventoryResult_t.cs" t="Include" />
+              <e p="SteamItemDef_t.cs" t="Include" />
+              <e p="SteamItemInstanceID_t.cs" t="Include" />
+            </e>
+            <e p="SteamMatchmaking" t="Include">
+              <e p="HServerListRequest.cs" t="Include" />
+              <e p="HServerQuery.cs" t="Include" />
+            </e>
+            <e p="SteamNetworking" t="Include">
+              <e p="SNetListenSocket_t.cs" t="Include" />
+              <e p="SNetSocket_t.cs" t="Include" />
+            </e>
+            <e p="SteamRemoteStorage" t="Include">
+              <e p="PublishedFileId_t.cs" t="Include" />
+              <e p="PublishedFileUpdateHandle_t.cs" t="Include" />
+              <e p="UGCFileWriteStreamHandle_t.cs" t="Include" />
+              <e p="UGCHandle_t.cs" t="Include" />
+            </e>
+            <e p="SteamScreenshots" t="Include">
+              <e p="ScreenshotHandle.cs" t="Include" />
+            </e>
+            <e p="SteamTypes" t="Include">
+              <e p="AccountID_t.cs" t="Include" />
+              <e p="AppId_t.cs" t="Include" />
+              <e p="DepotId_t.cs" t="Include" />
+              <e p="ManifestId_t.cs" t="Include" />
+              <e p="SteamAPICall_t.cs" t="Include" />
+            </e>
+            <e p="SteamUGC" t="Include">
+              <e p="UGCQueryHandle_t.cs" t="Include" />
+              <e p="UGCUpdateHandle_t.cs" t="Include" />
+            </e>
+            <e p="SteamUnifiedMessages" t="Include">
+              <e p="ClientUnifiedMessageHandle.cs" t="Include" />
+            </e>
+            <e p="SteamUserStats" t="Include">
+              <e p="SteamLeaderboard_t.cs" t="Include" />
+              <e p="SteamLeaderboardEntries_t.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Assets\Examples" t="Include">
+        <e p="1.1 Module" t="Include">
+          <e p="ExampleModule.cs" t="Include" />
+        </e>
+        <e p="1.10 NeedyModule" t="Include">
+          <e p="ExampleNeedyModule.cs" t="Include" />
+        </e>
+        <e p="1.12 Holdable" t="Include">
+          <e p="BombCreatorExample.cs" t="Include" />
+        </e>
+        <e p="1.13 GameEffectsPlayer" t="Include">
+          <e p="GameEffectPlayer.cs" t="Include" />
+        </e>
+        <e p="1.2 Module2" t="Include">
+          <e p="ExampleModule2.cs" t="Include" />
+        </e>
+        <e p="1.3 GameplayRoom" t="Include">
+          <e p="ExampleGameplayRoom.cs" t="Include" />
+        </e>
+        <e p="1.5 WebService" t="Include">
+          <e p="ExampleWebService.cs" t="Include" />
+        </e>
+        <e p="1.8 Button Masher Module" t="Include">
+          <e p="ButtonMasherModule.cs" t="Include" />
+        </e>
+        <e p="1.9 Widget" t="Include">
+          <e p="ExampleWidget.cs" t="Include" />
+        </e>
+        <e p="Assets" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="BlendTwoTexturesLitAndUnlit.shader" t="Include" />
+            <e p="BlendTwoTexturesLitAndUnlitVertexColor.shader" t="Include" />
+            <e p="BlendTwoTexturesUnlit.shader" t="Include" />
+            <e p="KT_3D_Text-Diffuse.shader" t="Include" />
+            <e p="KT_3D_Text.shader" t="Include" />
+            <e p="KT_Mobile-Diffuse-tint.shader" t="Include" />
+            <e p="KT_Mobile-Diffuse.shader" t="Include" />
+            <e p="MobileTransparentDiffuseUnderlay.shader" t="Include" />
+            <e p="UnlitTexturedLightmap.shader" t="Include" />
+            <e p="UnlitTransparentVertexColorUnderlay.shader" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Assets\MelodicMessageModule.cs" t="Include" />
+      <e p="Assets\Scripts" t="Include">
+        <e p="Easing.cs" t="Include" />
+        <e p="GeneralExtensions.cs" t="Include" />
+        <e p="KMBombInfoExtensions.cs" t="Include" />
+        <e p="KMBossModule.cs" t="Include" />
+        <e p="KMColorblindMode.cs" t="Include" />
+        <e p="KMRuleSeedable.cs" t="Include" />
+        <e p="PrivateWhenPlayingAttribute.cs" t="Include" />
+        <e p="ReadOnlyWhenPlayingAttribute.cs" t="Include" />
+      </e>
+      <e p="Assets\TestHarness" t="Include">
+        <e p="_THIS_FOLDER_IS_EXCLUDED_FROM_BUNDLES.txt" t="Include" />
+        <e p="EdgeworkConfiguration.cs" t="Include" />
+        <e p="NeedyTimer.cs" t="Include" />
+        <e p="SevenSegDisplay.cs" t="Include" />
+        <e p="Shaders" t="Include">
+          <e p="Outline.shader" t="Include" />
+        </e>
+        <e p="StatusLight" t="Include">
+          <e p="StatusLight.cs" t="Include" />
+        </e>
+        <e p="TestHarness.cs" t="Include" />
+        <e p="TestHighlightable.cs" t="Include" />
+        <e p="TestSelectable.cs" t="Include" />
+        <e p="TestSelectableArea.cs" t="Include" />
+        <e p="THWidget.cs" t="Include" />
+        <e p="TimerModule.cs" t="Include" />
+        <e p="TwitchPlaysID.cs" t="Include" />
+        <e p="Widgets" t="Include">
+          <e p="BatteryWidget.cs" t="Include" />
+          <e p="CustomWidget.cs" t="Include" />
+          <e p="IndicatorWidget.cs" t="Include" />
+          <e p="ModWidget.cs" t="Include" />
+          <e p="PortWidget.cs" t="Include" />
+          <e p="SerialNumber.cs" t="Include" />
+          <e p="Shaders" t="Include">
+            <e p="3DText.shader" t="Include" />
+          </e>
+          <e p="TwoFactorWidget.cs" t="Include" />
+          <e p="Widget.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Assets\word list.txt" t="Include" />
+      <e p="Melodic-Message.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

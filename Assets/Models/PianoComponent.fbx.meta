@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: dae1063e3ea84e842a8789388baa8247
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Component_PuzzleBackground
+    100002: Key_A
+    100004: Key_B
+    100006: Key_C
+    100008: Key_C#
+    100010: Key_D
+    100012: Key_D#
+    100014: Key_E
+    100016: Key_E#
+    100018: Key_F
+    100020: Key_F#
+    100022: Key_G
+    100024: Key_G#
+    100026: //RootNode
+    100028: Highlight_Black
+    100030: Highlight_White
+    400000: Component_PuzzleBackground
+    400002: Key_A
+    400004: Key_B
+    400006: Key_C
+    400008: Key_C#
+    400010: Key_D
+    400012: Key_D#
+    400014: Key_E
+    400016: Key_E#
+    400018: Key_F
+    400020: Key_F#
+    400022: Key_G
+    400024: Key_G#
+    400026: //RootNode
+    400028: Highlight_Black
+    400030: Highlight_White
+    2100000: Material.009
+    2100002: Material.010
+    2100004: Material.013
+    2100006: No Name
+    2100008: Material.011
+    2100010: Material.012
+    2100012: Material
+    2100014: Material.004
+    2100016: Component_PuzzleBack_mat
+    2300000: Component_PuzzleBackground
+    2300002: Key_A
+    2300004: Key_B
+    2300006: Key_C
+    2300008: Key_C#
+    2300010: Key_D
+    2300012: Key_D#
+    2300014: Key_E
+    2300016: Key_E#
+    2300018: Key_F
+    2300020: Key_F#
+    2300022: Key_G
+    2300024: Key_G#
+    2300026: Highlight_Black
+    2300028: Highlight_White
+    3300000: Component_PuzzleBackground
+    3300002: Key_A
+    3300004: Key_B
+    3300006: Key_C
+    3300008: Key_C#
+    3300010: Key_D
+    3300012: Key_D#
+    3300014: Key_E
+    3300016: Key_E#
+    3300018: Key_F
+    3300020: Key_F#
+    3300022: Key_G
+    3300024: Key_G#
+    3300026: Highlight_Black
+    3300028: Highlight_White
+    4300000: Key_A
+    4300002: Key_B
+    4300004: Key_C
+    4300006: Key_C#
+    4300008: Key_D
+    4300010: Key_D#
+    4300012: Key_E
+    4300014: Key_E#
+    4300016: Key_F
+    4300018: Key_F#
+    4300020: Key_G
+    4300022: Key_G#
+    4300024: Component_PuzzleBackground
+    4300026: Highlight_White
+    4300028: Highlight_Black
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

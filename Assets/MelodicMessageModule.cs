@@ -31,6 +31,8 @@ public class MelodicMessageModule : MonoBehaviour
 	private bool _tpCycle = false;
 	private bool _animation = false;
 
+	private static float _tpCycleTime = 1.5f;
+	
 	private Coroutine _displayCoroutine;
 
 	private void Awake()
@@ -60,7 +62,7 @@ public class MelodicMessageModule : MonoBehaviour
 			ConvertNoteToUnfriendly(((KeyNames) Random.Range(0, 12)).ToString())
 		};
 
-		_screenText.text = _submissionNotes.Join();
+		_screenText.text = _submissionNotes.Join("  ");
 		
 		// Pick a random word
 		_word = WordList.GetRandomWord();
@@ -116,7 +118,7 @@ public class MelodicMessageModule : MonoBehaviour
 
 	private void Start()
 	{
-		DebugLog("Notes are: {0}", _submissionNotes.Join());
+		DebugLog("Notes are: {0}", _submissionNotes.Join());   
 		DebugLog("The chosen word is: {0}", _word);
 		for (var i = 0; i < _keyInfo.Length; i++)
 		{
@@ -141,7 +143,7 @@ public class MelodicMessageModule : MonoBehaviour
 
 		if (!_submitting && _init && !_solved)
 		{
-			// Display the key's data in a random order
+			// Set up display info for the key
 			if (_displayCoroutine != null)
 				StopCoroutine(_displayCoroutine);
 			
@@ -153,7 +155,8 @@ public class MelodicMessageModule : MonoBehaviour
 			if (message.Length == 2)
 				message = message.Replace(" ", "");
 			
-			_displayCoroutine = StartCoroutine(DisplayMessageFor(message, 1f));
+			// Display the info for 1 second. If Twitch Plays then a little longer.
+			_displayCoroutine = StartCoroutine(DisplayMessageFor(message, _tpCycle ? _tpCycleTime : 1f));
 			
 			if (_tpCycle)
 				return;
@@ -211,13 +214,14 @@ public class MelodicMessageModule : MonoBehaviour
 			}
 		}
 		
-		if (noteName.Contains("b"))
+		// ToUpper needed because of TP
+		if (noteName.ToUpperInvariant().Contains("B") && noteName.Length == 2)
 		{
-			switch (noteName)
+			switch (noteName.ToUpperInvariant())
 			{
-				case "Cb":
+				case "CB":
 					return "B";
-				case "Fb":
+				case "FB":
 					return "E";
 				default:
 					var notes = "ABCDEFG".ToArray();
@@ -324,7 +328,7 @@ public class MelodicMessageModule : MonoBehaviour
 			_screenText.text = input.Join("");
 			_screenText.color = Color.red;
 			yield return new WaitForSeconds(1.2f);
-			_screenText.text = _submissionNotes.Join().Replace("s", "#");
+			_screenText.text = _submissionNotes.Join("  ").Replace("s", "#");
 			_submitting = false;
 			input = new List<string>();
 		}
@@ -336,7 +340,7 @@ public class MelodicMessageModule : MonoBehaviour
 	{
 		_screenText.text = message;
 		yield return new WaitForSeconds(seconds);
-		_screenText.text = _submissionNotes.Join().Replace("s", "#");
+		_screenText.text = _submissionNotes.Join("  ").Replace("s", "#");
 	}
 
 	string TwitchHelpMessage = "Do '!{0} cycle' to cycle through all the keys from left to right. The module will not enter submit mode when cycling. Do '!{0} press A Bb C#' to press the keys.";
@@ -347,13 +351,13 @@ public class MelodicMessageModule : MonoBehaviour
 		{
 			yield return null;
 
-			if (command.Equals("cycle"))
+			if (command.ToLowerInvariant().Equals("cycle"))
 			{
 				_tpCycle = true;
 				for (var i = 0; i < _keys.Length; i++)
 				{
 					ButtonPressed(i);
-					yield return new WaitForSeconds(1f);
+					yield return new WaitForSeconds(_tpCycleTime);
 				}
 
 				_tpCycle = false;
@@ -364,9 +368,9 @@ public class MelodicMessageModule : MonoBehaviour
 				
 				foreach (var item in split)
 				{
-					if (item.Equals("press")) continue;
+					if (item.ToLowerInvariant().Equals("press")) continue;
 
-					ButtonPressed((int) Enum.Parse(typeof(KeyNames), ConvertNoteToFriendly(item)));
+					ButtonPressed((int) Enum.Parse(typeof(KeyNames), ConvertNoteToFriendly(item.ToUpperInvariant())));
 					yield return "trycancel";
 					yield return new WaitForSeconds(.2f);
 				}

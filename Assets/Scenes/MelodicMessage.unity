@@ -259,6 +259,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 23985758139558494, guid: 9b010456f818c1d4681b3913caf497b3,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6ceff23a2ee2ff94f95a772c1ad10b03, type: 2}
+    - target: {fileID: 102197876512494742, guid: 9b010456f818c1d4681b3913caf497b3,
+        type: 2}
+      propertyPath: m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: b6e1b560931d5c042b2a46a313213332,
+        type: 3}
+    - target: {fileID: 102197876512494742, guid: 9b010456f818c1d4681b3913caf497b3,
+        type: 2}
+      propertyPath: m_Text
+      value: 'C#  D#  E '
+      objectReference: {fileID: 0}
+    - target: {fileID: 4658563703968328, guid: 9b010456f818c1d4681b3913caf497b3, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.582
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9b010456f818c1d4681b3913caf497b3, type: 2}
   m_IsPrefabParent: 0
